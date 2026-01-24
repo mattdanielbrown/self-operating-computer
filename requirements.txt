@@ -53,3 +53,5 @@ ultralytics==8.0.227
 easyocr==1.7.1
 ollama==0.1.6
 anthropic
+torch>=2.10.0 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.46.2 # not directly required, pinned by Snyk to avoid a vulnerability
